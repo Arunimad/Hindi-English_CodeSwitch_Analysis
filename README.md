@@ -1,2 +1,5 @@
 # Hindi-English_CodeSwitch_Analysis
 Comparison of Different Models for Hindi-English Code-Switched Sentiment Analysis (MuRIL) and BERT)
+
+This study aims to evaluate the effectiveness of  popular models such as the BERT-base-uncased model and the Google MuRIL model in combination with four different sequence classifiers for performing sentiment analysis on Hindi-English code-switched data. The models were tested on a publicHugging Face dataset containing tweets of various sentiments. In particular, the performance of the models and respective classifiers was verified across different sentiment categories. The findings demonstrate varied performance across each model-classifier combination with the BERT-base-uncased model and BertForSequenceClassification resulting in the highest accuracy. The results also reflect the importance of sentiment biases within the dataset and how they influence the selection of models and classifiers. This work highlights the challenges for sentiment analysis in low-resource, code-switched languages. Furthermore, the paper examines the correlation of model performance concerning content sentiment, which is often overlooked.  
+
